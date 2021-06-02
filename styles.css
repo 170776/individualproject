@@ -18,8 +18,12 @@ p {
   #main {
     padding:10px 0 5px 20px;
     text-align: left;
-   background-color:white;
+   background-color:lightpink;
     
+  }
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
   }
 footer {
     background-color:lightslategray;
@@ -31,6 +35,7 @@ footer {
   a{
       color: orangered;
   }
+
   header {
     background-image: url("nature.jpg");
     padding: 30px;
@@ -40,6 +45,8 @@ footer {
   img{
     padding: 10px;
     float:left;
+    width: 300px;
+    height: 200px;
   }
   section::after {
     display: table;
