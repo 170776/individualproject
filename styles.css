@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Mate SC', serif;
   }
 p {
     color: black;
@@ -14,7 +14,7 @@ p {
     position: relative;
     padding:10px 0 5px 20px;
   }
-  
+
   #main {
     padding:10px 0 5px 20px;
     text-align: left;
@@ -26,19 +26,24 @@ p {
     background: #aaa;
   }
 footer {
-    background-color:lightslategray;
+    background-color:#e9ecef;
     padding: 15px  25px;
     text-align: right;
     color: white;
-    margin-top: -19px;
+    margin-top: -26px;
   }
   a{
-      color: orangered;
+      color: black;
   }
-
+  .header1 {
+    background-image: url("images/m.png");
+    padding: 100px;
+    text-align: lefts;
+    color: white;
+  }
   header {
-    background-image: url("nature.jpg");
-    padding: 30px;
+    background-image: url("images/m.png");
+    padding: 60px;
     text-align: lefts;
     color: white;
   }
@@ -104,4 +109,6 @@ footer {
       flex: 100%;
       max-width: 100%;
     }
+   
+    
   }
