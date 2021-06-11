@@ -4947,6 +4947,7 @@ tbody.collapse.show {
   padding-right: 0;
   padding-left: 0;
   border-radius: 0;
+  margin-bottom: -70px;
 }
 
 .alert {
