@@ -40,13 +40,13 @@ footer {
   .header1 {
     background-image: url("../images/m.png");
     padding: 100px;
-    text-align: lefts;
+    text-align: left;
     color: white;
   }
   header {
     background-image: url("../images/m.png");
     padding: 60px;
-    text-align: lefts;
+    text-align: left;
     color: white;
   }
   img{
@@ -62,28 +62,13 @@ footer {
   * {
     box-sizing: border-box;
   }
-  
-  body {
-    margin: 0;
-    font-family: 'Bangers', cursive;
-  }
-  
-  .header {
-    text-align: center;
-    padding: 32px;
-  }
-  
   .row {
-    display: -ms-flexbox; /* IE10 */
     display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     padding: 0 4px;
   }
   
-  /* Create four equal columns that sits next to each other */
   .column {
-    -ms-flex: 25%; /* IE10 */
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
@@ -95,26 +80,11 @@ footer {
     width: 100%;
   }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
-    .column {
-      -ms-flex: 50%;
-      flex: 50%;
-      max-width: 50%;
-    }
+
+
+  .carousel-inner img {
+    width: 99%;
+    height: 85%;
   }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      -ms-flex: 100%;
-      flex: 100%;
-      max-width: 100%;
-    }
-   h1{
-    font-family: 'Bangers', cursive;
-   }
-    h2{
-      font-family: 'Bangers', cursive;
-    }
-  }
+
+ 
